@@ -1,0 +1,8 @@
+namespace: production
+commonLabels:
+    environment: production
+resources:
+- ../../base
+
+patchesStrategicMerge:
+- env.yaml
